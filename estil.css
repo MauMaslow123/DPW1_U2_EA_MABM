@@ -1,0 +1,99 @@
+body{
+	background-color: black;	
+}
+
+.nav{
+	background-color: black;
+	float: center;
+	font-size:  20px;
+	padding: 20px 20px; 
+}
+
+.nav>li{
+float: left;
+}
+
+
+.nav__li{
+	display: inline-block;
+	padding: 9px;
+	
+}
+
+.nav__li a{
+	color: #fff;
+	text-shadow: 2px 2px 7px black,2px 2px 7px black;
+}
+
+.nav__li a:hover {
+	color: #66F02A;
+	
+}
+
+.espacio{
+	background-color: white;
+	height: 5px;
+	width: 100%;
+}
+
+.titulo{
+	color: white;
+	font-family: 'helveticah';
+	text-align: center;
+}
+
+.contenedor{
+	display: flex;
+	height: 100vh:
+	justify-content:center;
+	align-items: center;
+	max-width:  700px;
+	width: 100%
+	background-color: white;
+	padding: 25px 30px;
+	border-radius: 10%;
+}
+
+.datosUsuario{
+	display: flex;
+	flex-wrap: ;
+}
+
+.datos{
+	width: calc(100%/2-20px);
+}
+
+input{
+	display: block;
+	height: 45px:
+	width:100%;
+	border-radius: 5%;
+	border: 10px solid: lightgreen;
+	padding: 20px;
+	font-size: 16px;
+	transition: 1s;
+	align-items: center;
+	
+}
+input:hover{
+	background-color:  lightblue;
+	border-color:  #66F02A;
+}
+
+select{	
+	display: block;
+	height: 45px:
+	width:100%;
+	border-radius: 5%;
+	border: 10px solid: lightgreen;
+	padding: 20px;
+	font-size: 16px;
+	transition: 1s;
+	align-items: center;
+	
+}
+select:hover{
+	background-color:  lightblue;
+	border-color:  #66F02A;
+}
+}
